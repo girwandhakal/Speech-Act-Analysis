@@ -1,0 +1,7 @@
+foreach ($file in Get-ChildItem "$inputFolder\*.csv") {
+>>     $inputPath = $file.FullName
+>>     $outputName = $file.BaseName + "_annotated.csv"
+>>     $outputPath = Join-Path $file.DirectoryName $outputName
+>>
+>>     python crf_annotate.py --model $model --data $inputPath --out $outputPath --use-pos --use-bi-grams --use-repetitions
+>> }
