@@ -12,9 +12,3 @@ This repository contains code and scripts used for analyzing speech acts in late
 
 - **command-line-code-crf-model.txt**  
   Example command-line code to run the pretrained CRF model from [childes-speech-acts](https://github.com/mitjanikolaus/childes-speech-acts) on the prepared CSV files to generate annotated outputs.
-
-## Citation
-
-If you use this repository, please cite:
-
-> Nikolaus, M. (2024). *childes-speech-acts* [Computer software]. GitHub. https://github.com/mitjanikolaus/childes-speech-acts
